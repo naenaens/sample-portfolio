@@ -16,7 +16,7 @@ const Contact = () => {
               <span className='w-[30px] h-[2px] bg-purple-600 dark:bg-yellow-400'></span>
               Hey there! 👋
             </div>
-            <h1 className='h1 max-w-md mb-8'>Let's go!</h1>
+            <h1 className='h1 max-w-md mb-8'>Let's chat!</h1>
             <p className='subtitle max-w-[400px]'>
               Ready to build your site? Send me a message and let's talk!
             </p>
