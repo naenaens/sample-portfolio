@@ -23,6 +23,24 @@ const projectData = [
     github: '/',
   },
   {
+    image: '/work/selections.jpg',
+    category: 'Visuals',
+    name: 'Selections',
+    description:
+      'This is practice on layering and masking in our photoshop class.',
+    link: '/work/selections.jpg',
+    github: '/',
+  },
+  {
+    image: '/work/scribbles.png',
+    category: 'Web Development',
+    name: 'Scribbles',
+    description:
+      'This is a practice site using MERN (Mongo DB, ExpressJs, React, NodeJs).',
+    link: 'https://scribbles.vercel.app/',
+    github: '/',
+  },
+  {
     image: '/work/ideal-workstation.jpg',
     category: 'Visuals',
     name: 'Ideal Workstation',
