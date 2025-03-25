@@ -8,7 +8,7 @@ const Footer = () => {
           {/* socials */}
           <Socials
             containerStyles='flex gap-x-6 mx-auto xl:mx-0 mb-4'
-            iconsStyles='text-primary dark:text-white/70 text-[20px] hover:text-white dark:hover:text-primary transition-all'
+            iconsStyles='stroke-white hover:stroke-yellow-400 transition-all text-[20px] dark:stroke-white dark:hover:stroke-yellow-400' // stroke white for both modes
           />
           {/* copyright */}
           <div className='text-muted-foreground'>

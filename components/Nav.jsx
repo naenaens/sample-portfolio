@@ -1,10 +1,5 @@
-// link (next js)
 import Link from 'next/link';
-
-// next hooks
 import { usePathname } from 'next/navigation';
-
-// framer motion
 import { motion } from 'framer-motion';
 
 const links = [
@@ -22,7 +17,8 @@ const Nav = ({ containerStyles, linkStyles, underlineStyles }) => {
           <Link
             href={link.path}
             key={index}
-            className={`capitalize ${linkStyles}`}
+            className={`capitalize ${linkStyles} 
+              hover:text-purple-800 dark:hover:text-yellow-400`} // Hover color in light mode: purple, dark mode: yellow
           >
             {link.path === path && (
               <motion.span
@@ -30,7 +26,8 @@ const Nav = ({ containerStyles, linkStyles, underlineStyles }) => {
                 animate={{ y: 0 }}
                 transition={{ type: 'tween' }}
                 layoutId='underline'
-                className={`${underlineStyles}`}
+                className={`${underlineStyles} 
+                  bg-purple-800 dark:bg-yellow-400`} // Active state underline color in light mode: purple, dark mode: yellow
               />
             )}
             {link.name}

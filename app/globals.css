@@ -96,3 +96,16 @@
   .swiper-pagination-bullet {
   @apply bg-primary;
 }
+
+/* Apply fill-current and color styles to all SVGs */
+/* Apply stroke-current and color styles to all SVGs */
+svg {
+  @apply stroke-current text-purple-400 dark:text-amber-400;
+}
+
+.dev-img {
+  object-fit: cover; /* Ensure the image covers the area without distorting */
+  width: 100%;
+  height: 100%;
+}
+

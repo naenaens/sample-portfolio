@@ -11,8 +11,7 @@ const servicesData = [
   {
     icon: <Paintbrush size={72} strokeWidth={0.8} />,
     title: 'Web Design',
-    description:
-      'Designing websites using Figma.',
+    description: 'Designing websites using Figma.',
   },
   {
     icon: <Globe size={72} strokeWidth={0.8} />,
@@ -22,9 +21,8 @@ const servicesData = [
   },
   {
     icon: <Music size={72} strokeWidth={0.8} />,
-    title: 'Singer/Musician',
-    description:
-      'Provides singing services to your events.',
+    title: 'Social Media Management',
+    description: 'Creates and updates content of your Social Media Accounts.',
   },
 ];
 
@@ -40,7 +38,7 @@ const Services = () => {
           {servicesData.map((item, index) => {
             return (
               <Card
-                className='w-full max-w-[424px] h-[300px] flex flex-col pt-16 pb-10 justify-center items-center relative'
+                className='w-full max-w-[424px] h-[300px] flex flex-col pt-16 pb-10 justify-center items-center relative border border-yellow-500 dark:border-transparent'
                 key={index}
               >
                 <CardHeader className='text-primary absolute -top-[60px]'>

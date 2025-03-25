@@ -140,16 +140,16 @@ const About = () => {
           <div className='flex-1'>
             <Tabs defaultValue='personal'>
               <TabsList className='w-full grid xl:grid-cols-3 xl:max-w-[520px] xl:border dark:border-none'>
-                <TabsTrigger className='w-[162px] xl:w-auto' value='personal'>
+                <TabsTrigger className='w-[162px] xl:w-auto text-white' value='personal'>
                   Personal Info
                 </TabsTrigger>
                 <TabsTrigger
-                  className='w-[162px] xl:w-auto'
+                  className='w-[162px] xl:w-auto text-white'
                   value='qualifications'
                 >
                   Qualifications
                 </TabsTrigger>
-                <TabsTrigger className='w-[162px] xl:w-auto' value='skills'>
+                <TabsTrigger className='w-[162px] xl:w-auto text-white' value='skills'>
                   Skills
                 </TabsTrigger>
               </TabsList>
@@ -158,10 +158,10 @@ const About = () => {
                 {/* personal */}
                 <TabsContent value='personal'>
                   <div className='text-center xl:text-left'>
-                    <h3 className='h3 mb-4'>
+                    <h3 className='h3 mb-4 text-purple-800 dark:text-amber-400'>
                       Curiosity. Design. Art
                     </h3>
-                    <p className='subtitle max-w-xl mx-auto xl:mx-0'>
+                    <p className='subtitle max-w-xl mx-auto xl:mx-0 text-black dark:text-white'>
                       I design, create, and modernize user experiences.
                     </p>
                     {/* icons */}
@@ -169,7 +169,7 @@ const About = () => {
                       {infoData.map((item, index) => {
                         return (
                           <div
-                            className='flex items-center gap-x-4 mx-auto xl:mx-0'
+                            className='flex items-center gap-x-4 mx-auto xl:mx-0 text-black dark:text-white'
                             key={index}
                           >
                             <div className='text-primary'>{item.icon}</div>
@@ -180,7 +180,9 @@ const About = () => {
                     </div>
                     {/* languages */}
                     <div className='flex flex-col gap-y-2'>
-                      <div className='text-primary'>Language Skill</div>
+                      <div className='text-purple-800 dark:text-amber-400'>
+                        Language Skill
+                      </div>
                       <div className='border-b border-border'></div>
                       <div>English, Cebuano, Tagalog, Japanese (a little lol)</div>
                     </div>
@@ -189,14 +191,14 @@ const About = () => {
                 {/* qualifications */}
                 <TabsContent value='qualifications'>
                   <div>
-                    <h3 className='h3 mb-8 text-center xl:text-left'>
+                    <h3 className='h3 mb-8 text-center xl:text-left text-purple-800 dark:text-amber-400'>
                       My Awesome Journey
                     </h3>
                     {/* experience & education wrapper */}
                     <div className='grid md:grid-cols-2 gap-y-8'>
                       {/* experience */}
                       <div className='flex flex-col gap-y-6'>
-                        <div className='flex gap-x-4 items-center text-[22px] text-primary'>
+                        <div className='flex gap-x-4 items-center text-[22px] text-purple-800 dark:text-amber-400'>
                           <Briefcase />
                           <h4 className='capitalize font-medium'>
                             {getData(qualificationData, 'experience').title}
@@ -210,7 +212,7 @@ const About = () => {
                               return (
                                 <div className='flex gap-x-8 group' key={index}>
                                   <div className='h-[84px] w-[1px] bg-border relative ml-2'>
-                                    <div className='w-[11px] h-[11px] rounded-full bg-primary absolute -left-[5px] group-hover:translate-y-[84px] transition-all duration-500'></div>
+                                    <div className='w-[11px] h-[11px] rounded-full bg-purple-800 dark:bg-amber-400 absolute -left-[5px] group-hover:translate-y-[84px] transition-all duration-500'></div>
                                   </div>
                                   <div>
                                     <div className='font-semibold text-xl leading-none mb-2'>
@@ -231,7 +233,7 @@ const About = () => {
                       </div>
                       {/* education */}
                       <div className='flex flex-col gap-y-6'>
-                        <div className='flex gap-x-4 items-center text-[22px] text-primary'>
+                        <div className='flex gap-x-4 items-center text-[22px] text-purple-800 dark:text-amber-400'>
                           <GraduationCap size={28} />
                           <h4 className='capitalize font-medium'>
                             {getData(qualificationData, 'education').title}
@@ -245,10 +247,10 @@ const About = () => {
                               return (
                                 <div className='flex gap-x-8 group' key={index}>
                                   <div className='h-[84px] w-[1px] bg-border relative ml-2'>
-                                    <div className='w-[11px] h-[11px] rounded-full bg-primary absolute -left-[5px] group-hover:translate-y-[84px] transition-all duration-500'></div>
+                                    <div className='w-[11px] h-[11px] rounded-full bg-purple-800 dark:bg-amber-400 absolute -left-[5px] group-hover:translate-y-[84px] transition-all duration-500'></div>
                                   </div>
                                   <div>
-                                    <div className='font-semibold text-xl leading-none mb-2'>
+                                    <div className='font-semibold text-xl leading-none mb-2 '>
                                       {university}
                                     </div>
                                     <div className='text-lg leading-none text-muted-foreground mb-4'>
@@ -270,10 +272,14 @@ const About = () => {
                 {/* skills */}
                 <TabsContent value='skills'>
                   <div className='text-center xl:text-left'>
-                    <h3 className='h3 mb-8'>What I Use To Build</h3>
+                    <h3 className='h3 mb-8 text-purple-800 dark:text-amber-400'>
+                      What I Use To Build
+                    </h3>
                     {/* skills */}
                     <div className='mb-16'>
-                      <h4 className='text-xl font-semibold mb-2'>Skills</h4>
+                      <h4 className='text-xl font-semibold mb-2 text-purple-800 dark:text-amber-400'>
+                        Skills
+                      </h4>
                       <div className='border-b border-border mb-4'></div>
                       {/* skill list */}
                       <div>
@@ -282,7 +288,7 @@ const About = () => {
                             const { name } = item;
                             return (
                               <div
-                                className='w-2/4 text-center xl:text-left mx-auto xl:mx-0'
+                                className='w-2/4 text-center xl:text-left mx-auto xl:mx-0 text-black dark:text-white'
                                 key={index}
                               >
                                 <div className='font-medium'>{name}</div>
@@ -293,7 +299,9 @@ const About = () => {
                       </div>
                     </div>
                     <div className='mb-16'>
-                      <h4 className='text-xl font-semibold mb-2'>Tools</h4>
+                      <h4 className='text-xl font-semibold mb-2 text-purple-800 dark:text-amber-400'>
+                        Tools
+                      </h4>
                       <div className='border-b border-border mb-4'></div>
                       {/* skill list */}
                       <div>
@@ -302,7 +310,7 @@ const About = () => {
                             const { name } = item;
                             return (
                               <div
-                                className='w-2/4 text-center xl:text-left mx-auto xl:mx-0'
+                                className='w-2/4 text-center xl:text-left mx-auto xl:mx-0 text-black dark:text-white'
                                 key={index}
                               >
                                 <div className='font-medium'>{name}</div>
@@ -312,7 +320,6 @@ const About = () => {
                         )}
                       </div>
                     </div>
-
                   </div>
                 </TabsContent>
               </div>

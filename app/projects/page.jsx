@@ -6,7 +6,7 @@ import ProjectCard from '@/components/ProjectCard';
 const projectData = [
   {
     image: '/work/3.png',
-    category: 'react js',
+    category: 'Web Design',
     name: 'Nexa Website',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quis.',
@@ -15,7 +15,7 @@ const projectData = [
   },
   {
     image: '/work/4.png',
-    category: 'react js',
+    category: 'Web Development',
     name: 'Solstice Website',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quis.',
@@ -24,7 +24,7 @@ const projectData = [
   },
   {
     image: '/work/2.png',
-    category: 'next js',
+    category: 'Web Development',
     name: 'Lumina Website',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quis.',
@@ -33,7 +33,7 @@ const projectData = [
   },
   {
     image: '/work/1.png',
-    category: 'next js',
+    category: 'Web Design',
     name: 'Evolve Website',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quis.',
@@ -42,7 +42,7 @@ const projectData = [
   },
   {
     image: '/work/3.png',
-    category: 'next js',
+    category: 'Web Development',
     name: 'Ignite Website',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quis.',
@@ -51,7 +51,7 @@ const projectData = [
   },
   {
     image: '/work/4.png',
-    category: 'next js',
+    category: 'Web Design',
     name: 'Envision Website',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quis.',
@@ -60,7 +60,7 @@ const projectData = [
   },
   {
     image: '/work/1.png',
-    category: 'fullstack',
+    category: 'Web Development',
     name: 'Serenity Website',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quis.',
@@ -69,7 +69,7 @@ const projectData = [
   },
   {
     image: '/work/3.png',
-    category: 'fullstack',
+    category: 'Web Design',
     name: 'Nova Website',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quis.',
@@ -78,8 +78,26 @@ const projectData = [
   },
   {
     image: '/work/2.png',
-    category: 'fullstack',
+    category: 'Web Development',
     name: 'Zenith Website',
+    description:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quis.',
+    link: '/',
+    github: '/',
+  },
+  {
+    image: '/work/4.png',
+    category: 'Visuals',
+    name: 'Creative Vision',
+    description:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quis.',
+    link: '/',
+    github: '/',
+  },
+  {
+    image: '/work/1.png',
+    category: 'Visuals',
+    name: 'Artistry in Motion',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quis.',
     link: '/',
@@ -87,21 +105,15 @@ const projectData = [
   },
 ];
 
-// remove category duplicates
-const uniqueCategories = [
-  'all projects',
-  ...new Set(projectData.map((item) => item.category)),
-];
+// New categories: All Projects, Web Development, Web Design, Visuals
+const uniqueCategories = ['All Projects', 'Web Development', 'Web Design', 'Visuals'];
 
 const Projects = () => {
-  const [categories, setCategories] = useState(uniqueCategories);
-  const [category, setCategory] = useState('all projects');
+  const [category, setCategory] = useState('All Projects');
 
   const filteredProjects = projectData.filter((project) => {
-    // if category is 'all projects' return all projects, else filter by category
-    return category === 'all projects'
-      ? project
-      : project.category === category;
+    // If category is 'All Projects', return all projects, else filter by category
+    return category === 'All Projects' ? project : project.category === category;
   });
 
   return (
@@ -110,31 +122,26 @@ const Projects = () => {
         <h2 className='section-title mb-8 xl:mb-16 text-center mx-auto'>
           My Projects
         </h2>
-        {/* tabs */}
-        <Tabs defaultValue={category} className='mb-24 xl:mb-48'>
-          <TabsList className='w-full grid h-full md:grid-cols-4 lg:max-w-[640px] mb-12 mx-auto md:border dark:border-none'>
-            {categories.map((category, index) => {
-              return (
-                <TabsTrigger
-                  onClick={() => setCategory(category)}
-                  value={category}
-                  key={index}
-                  className='capitalize w-[162px] md:w-auto'
-                >
-                  {category}
-                </TabsTrigger>
-              );
-            })}
+        {/* Tabs */}
+        <Tabs value={category} onValueChange={setCategory} className='mb-24 xl:mb-48'>
+          <TabsList className='w-full grid h-full md:grid-cols-4 lg:max-w-[640px] mb-12 mx-auto md:border dark:border-none justify-center'>
+            {uniqueCategories.map((category, index) => (
+              <TabsTrigger
+                value={category}
+                key={index}
+                className='capitalize w-[162px] md:w-auto'
+              >
+                {category}
+              </TabsTrigger>
+            ))}
           </TabsList>
-          {/* tabs content */}
+          {/* Tabs content */}
           <div className='text-lg xl:mt-8 grid grid-cols-1 lg:grid-cols-3 gap-4'>
-            {filteredProjects.map((project, index) => {
-              return (
-                <TabsContent value={category} key={index}>
-                  <ProjectCard project={project} />
-                </TabsContent>
-              );
-            })}
+            {filteredProjects.map((project, index) => (
+              <TabsContent value={category} key={index}>
+                <ProjectCard project={project} />
+              </TabsContent>
+            ))}
           </div>
         </Tabs>
       </div>

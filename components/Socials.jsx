@@ -1,7 +1,6 @@
 'use client';
 
 import {
-  RiYoutubeFill,
   RiLinkedinFill,
   RiGithubFill,
   RiFacebookFill,
@@ -13,23 +12,19 @@ import Link from 'next/link';
 const icons = [
   {
     path: '/',
-    name: <RiYoutubeFill />,
+    name: <RiLinkedinFill className="social-icon" />,
   },
   {
     path: '/',
-    name: <RiLinkedinFill />,
+    name: <RiGithubFill className="social-icon" />,
   },
   {
     path: '/',
-    name: <RiGithubFill />,
+    name: <RiFacebookFill className="social-icon" />,
   },
   {
     path: '/',
-    name: <RiFacebookFill />,
-  },
-  {
-    path: '/',
-    name: <RiInstagramFill />,
+    name: <RiInstagramFill className="social-icon" />,
   },
 ];
 
@@ -39,7 +34,9 @@ const Socials = ({ containerStyles, iconsStyles }) => {
       {icons.map((icon, index) => {
         return (
           <Link href={icon.path} key={index}>
-            <div className={`${iconsStyles}`}>{icon.name}</div>
+            <div className={`${iconsStyles} social-icon-wrapper`}>
+              {icon.name}
+            </div>
           </Link>
         );
       })}
