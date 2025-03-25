@@ -21,7 +21,7 @@ const Hero = () => {
         <div className='flex flex-col xl:flex-row justify-around gap-x-8'>
           {/* text */}
           <div className='flex max-w-[600px] flex-col justify-center mx-auto xl:mx-0 text-center xl:text-left'>
-            <div className='text-sm uppercase font-semibold mb-4 text-purple-800 dark:text-amber-400 tracking-[4px]'>
+            <div className='text-sm uppercase font-semibold mb-4 text-amber-500 tracking-[4px]'>
               Web Developer | Web Designer
             </div>
             <h1 className='h1 mb-4'>Hello, my name is Nina Saberon</h1>

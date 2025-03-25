@@ -5,104 +5,68 @@ import ProjectCard from '@/components/ProjectCard';
 
 const projectData = [
   {
-    image: '/work/3.png',
+    image: '/work/saki.png',
+    category: 'Web Development',
+    name: 'Saki Anime',
+    description:
+      'This website was made using Materialize CSS and jquery.',
+    link: 'https://saki.naeyan.com/',
+    github: '/',
+  },
+  {
+    image: '/work/focus-photography.png',
     category: 'Web Design',
-    name: 'Nexa Website',
+    name: 'Focus Photography',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quis.',
-    link: '/',
+      'This is a high fidelity prototype made using Figma for a photography website case study featuring the landing page.',
+    link: 'https://www.behance.net/gallery/217649635/Focus-Photography-Web-Design',
     github: '/',
   },
   {
-    image: '/work/4.png',
-    category: 'Web Development',
-    name: 'Solstice Website',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quis.',
-    link: '/',
-    github: '/',
-  },
-  {
-    image: '/work/2.png',
-    category: 'Web Development',
-    name: 'Lumina Website',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quis.',
-    link: '/',
-    github: '/',
-  },
-  {
-    image: '/work/1.png',
-    category: 'Web Design',
-    name: 'Evolve Website',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quis.',
-    link: '/',
-    github: '/',
-  },
-  {
-    image: '/work/3.png',
-    category: 'Web Development',
-    name: 'Ignite Website',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quis.',
-    link: '/',
-    github: '/',
-  },
-  {
-    image: '/work/4.png',
-    category: 'Web Design',
-    name: 'Envision Website',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quis.',
-    link: '/',
-    github: '/',
-  },
-  {
-    image: '/work/1.png',
-    category: 'Web Development',
-    name: 'Serenity Website',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quis.',
-    link: '/',
-    github: '/',
-  },
-  {
-    image: '/work/3.png',
-    category: 'Web Design',
-    name: 'Nova Website',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quis.',
-    link: '/',
-    github: '/',
-  },
-  {
-    image: '/work/2.png',
-    category: 'Web Development',
-    name: 'Zenith Website',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quis.',
-    link: '/',
-    github: '/',
-  },
-  {
-    image: '/work/4.png',
+    image: '/work/ideal-workstation.jpg',
     category: 'Visuals',
-    name: 'Creative Vision',
+    name: 'Ideal Workstation',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quis.',
-    link: '/',
+      'This is a design of my ideal workstation made using photoshop as an assignment for our photoshop class.',
+    link: '/work/ideal-workstation.jpg',
     github: '/',
   },
   {
-    image: '/work/1.png',
-    category: 'Visuals',
-    name: 'Artistry in Motion',
+    image: '/work/low-fidelity.png',
+    category: 'Web Design',
+    name: 'Focus Photography Low-Fidelity',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quis.',
-    link: '/',
+      'This is a low-fidelity prototype made using Figma for a photography website case study featuring the user dashboard.',
+    link: 'https://www.behance.net/gallery/217650039/Focus-Photography-Low-fidelity-prototype',
     github: '/',
   },
+  {
+    image: '/work/old-portfolio.png',
+    category: 'Web Development',
+    name: 'Basic Portfolio',
+    description:
+      'This is a basic portfolio I made a few years back using bootstrap and custom css.',
+    link: 'https://naeyan.com/',
+    github: '/',
+  },
+  {
+    image: '/work/husbando.png',
+    category: 'Web Development',
+    name: 'Anime Husbando',
+    description:
+      'This website shows the top husbandos in the anime community. The tools used to build this is ajax.',
+    link: 'https://nsaberon1.dmitstudent.ca/dmit2503/ajax_saberon/saberon-demo.html',
+    github: '/',
+  },
+  {
+    image: '/work/anime-ipsum.png',
+    category: 'Web Development',
+    name: 'Anime Ipsum',
+    description:
+      'This is an ipsum generator featuring famouse anime characters and their lines.',
+    link: 'https://anime-ipsum-kei.netlify.app/',
+    github: '/',
+  }
 ];
 
 // New categories: All Projects, Web Development, Web Design, Visuals
