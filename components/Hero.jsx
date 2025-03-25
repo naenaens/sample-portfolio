@@ -42,6 +42,7 @@ const Hero = () => {
               iconsStyles='text-foreground text-[22px] hover:text-primary transition-all'
             /> */}
           </div>
+          
           {/* image */}
           <div className='flex justify-center xl:hidden mb-8'>
             <DevImg
@@ -49,6 +50,7 @@ const Hero = () => {
               imgSrc='/hero/developer.png'
             />
           </div>
+          
           <div className='hidden xl:flex relative'>
             <div className='bg-amber-400 w-[500px] h-[500px] bg-no-repeat absolute -top-1 -right-2'></div>
             <DevImg
