@@ -16,7 +16,7 @@ import Socials from './Socials';
 
 const Hero = () => {
   return (
-    <section className='py-12 xl:py-24 h-auto xl:pt-28 bg-hero bg-no-repeat bg-bottom bg-cover dark:bg-none mb-16'>
+    <section className='py-12 h-auto bg-hero bg-no-repeat bg-bottom bg-cover dark:bg-none mb-16'>
       <div className='container mx-auto'>
         <div className='flex flex-col xl:flex-row justify-around gap-x-8'>
           {/* text */}
