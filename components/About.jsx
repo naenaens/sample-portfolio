@@ -23,7 +23,7 @@ const infoData = [
   },
   {
     icon: <MailIcon size={20} />,
-    text: 'ninaclairesaberon@email.com',
+    text: 'ninaclairesaberon@gmail.com',
   },
   {
     icon: <Calendar size={20} />,
@@ -124,7 +124,7 @@ const About = () => {
 
   return (
     <section className='xl:h-[860px] pb-12 xl:py-24'>
-      <div className='container mx-auto'>
+      <div className='container mx-auto mt-12 mb-12 xl:mb-24'>
         <h2 className='section-title mb-8 xl:mb-16 text-center mx-auto'>
           About me
         </h2>
@@ -162,7 +162,7 @@ const About = () => {
                       Curiosity. Design. Art
                     </h3>
                     <p className='subtitle max-w-xl mx-auto xl:mx-0 text-black dark:text-white'>
-                      I design, create, and modernize user experiences.
+                    I'm an aspiring Web Developer and Designer focused on creating user-friendly, visually appealing websites. Proficient in HTML, CSS, JavaScript, and Figma, with experience in WordPress and Joomla. I enjoy problem-solving, learning new technologies, and seeking growth in web development and design. Excited to collaborate and build amazing websites! I can also assist you with your Social Media Management needs.
                     </p>
                     {/* icons */}
                     <div className='grid xl:grid-cols-2 gap-4 mb-12'>

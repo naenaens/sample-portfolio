@@ -32,6 +32,60 @@ const projectData = [
     github: '/',
   },
   {
+    image: '/work/cebu.png',
+    category: 'Visuals',
+    name: 'Cebu Island',
+    description:
+      'A brochure about Cebu Island which was also a project for our Illustrator class.',
+    link: '/work/cebu.pdf',
+    github: '/',
+  },
+  {
+    image: '/work/bootstrap.png',
+    category: 'Web Development',
+    name: 'Homestead hub',
+    description:
+      'This is a practice assignment for implementing Bootstrap CSS.',
+    link: 'https://the-homestead-hub-naenaens.netlify.app/',
+    github: '/',
+  },
+  {
+    image: '/work/etudes.png',
+    category: 'Web Development',
+    name: 'Etudes',
+    description:
+      'This is a practice assignment for implementing custom CSS selectors.',
+    link: 'https://advanced-css-selectors-assignment.netlify.app/',
+    github: '/',
+  },
+  {
+    image: '/work/illustrator-guide.png',
+    category: 'Visuals',
+    name: 'Illustrator for Otakus',
+    description:
+      'This is an Illustrator guide which features information about using the pen tool, gradients, shapes and 3D illustrations.',
+    link: '/work/illustrator-otakus.pdf',
+    github: '/',
+  },
+  {
+    image: '/work/multi-user.png',
+    category: 'Web Development',
+    name: 'Music Gallery',
+    description:
+      'This is a practice assignment incorporating advanced web concepts to create a Multi-user blog.',
+    link: 'https://nsaberon1.dmitstudent.ca/dmit2503/music-gallery/',
+    github: '/',
+  },
+  {
+    image: '/work/mothers-day-card.png',
+    category: 'Visuals',
+    name: 'Mother\'s Day Card',
+    description:
+      'This project is about making a consistent design and brand for a special occassion which was done during our Visual Communications class.',
+    link: '/work/mothers-day-card.pdf',
+    github: '/',
+  },
+  {
     image: '/work/scribbles.png',
     category: 'Web Development',
     name: 'Scribbles',

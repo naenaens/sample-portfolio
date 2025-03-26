@@ -11,13 +11,13 @@ const servicesData = [
   {
     icon: <Paintbrush size={72} strokeWidth={0.8} />,
     title: 'Web Design',
-    description: 'Designing websites using Figma.',
+    description: 'Designing desktop and mobile user interfaces using Figma.',
   },
   {
     icon: <Globe size={72} strokeWidth={0.8} />,
     title: 'Web Development',
     description:
-      'Creating stunning websites through different coding stacks and CMS like Wordpress, Joomla etc.',
+      'Creating stunning websites through different coding stacks like React, NextJs, or PHP frameworks.',
   },
   {
     icon: <Music size={72} strokeWidth={0.8} />,
@@ -28,8 +28,8 @@ const servicesData = [
 
 const Services = () => {
   return (
-    <section className='mb-12 xl:mb-36'>
-      <div className='container mx-auto'>
+    <section className='mb-12 xl:mb-36 mt-24 xl:mt-24'>
+      <div className='container mx-auto mt-24 xl:mt-24'>
         <h2 className='section-title mb-12 xl:mb-24 text-center mx-auto'>
           My Services
         </h2>
