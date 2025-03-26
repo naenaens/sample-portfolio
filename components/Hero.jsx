@@ -46,8 +46,8 @@ const Hero = () => {
           {/* image (no background) */}
           <div className='flex justify-center xl:flex mb-8'>
             <DevImg
-              containerStyles='w-[450px] h-[650px] bg-no-repeat relative bg-bottom'
-              imgSrc='/hero/developer.png'
+              containerStyles='w-[350px] h-[450px] bg-no-repeat relative bg-bottom rounded-lg'
+              imgSrc='/hero/developer.jpg'
             />
           </div>
         </div>
