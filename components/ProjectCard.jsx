@@ -36,7 +36,7 @@ const ProjectCard = ({ project }) => {
       <div className='h-full px-8 py-6'>
       <Badge
         className='uppercase text-sm font-medium mb-2 absolute top-4 left-5
-          bg-purple-700 dark:bg-yellow-400 text-white dark:text-black'  // Purple in light mode and yellow in dark mode
+          bg-purple-700 dark:bg-amber-400 text-white dark:text-black'  // Purple in light mode and yellow in dark mode
       >
         {project.category}
       </Badge>
