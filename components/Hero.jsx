@@ -2,17 +2,17 @@ import Link from 'next/link';
 import { Button } from './ui/button';
 import { Download, Send } from 'lucide-react';
 
-import {
-  RiBriefcase4Fill,
-  RiTeamFill,
-  RiTodoFill,
-  RiArrowDownSLine,
-} from 'react-icons/ri';
+// import {
+//   RiBriefcase4Fill,
+//   RiTeamFill,
+//   RiTodoFill,
+//   RiArrowDownSLine,
+// } from 'react-icons/ri';
 
 // components
 import DevImg from './DevImg';
-import Badge from './Badge';
-import Socials from './Socials';
+// import Badge from './Badge';
+// import Socials from './Socials';
 
 const Hero = () => {
   return (
@@ -46,14 +46,10 @@ const Hero = () => {
           {/* image (no background) */}
           <div className='flex justify-center xl:flex mb-8'>
             <DevImg
-              containerStyles='w-[350px] h-[450px] bg-no-repeat relative bg-bottom rounded-lg'
+              containerStyles='w-[350px] h-[450px] bg-no-repeat relative bg-bottom rounded-lg '
               imgSrc='/hero/developer.jpg'
             />
           </div>
-        </div>
-        {/* icon */}
-        <div className='hidden md:flex absolute left-2/4 bottom-44 xl:bottom-12 animate-bounce'>
-          <RiArrowDownSLine className='text-3xl stroke-yellow-400 dark:stroke-yellow-400' />
         </div>
       </div>
     </section>

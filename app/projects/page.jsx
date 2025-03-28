@@ -9,7 +9,7 @@ const projectData = [
     category: 'Web Development',
     name: 'Saki Anime',
     description:
-      'This website was made using Materialize CSS and jquery as a project for our Advanced Web Concepts. We were told to use minimal custom CSS as much as possible. The design and code was made by me.',
+      'I built this website using Materialize CSS and jQuery for our Advanced Web Concepts project. We were encouraged to keep custom CSS to a minimum, allowing the framework to shine. Everything from the design to the code was crafted by me!',
     link: 'https://saki.naeyan.com/',
     github: '/',
   },
@@ -18,7 +18,7 @@ const projectData = [
     category: 'Web Design',
     name: 'Focus Photography',
     description:
-      'This is a high fidelity prototype project for our Web Usability class made using Figma. This was for a photography website case study featuring the landing page. All of the design was made by me based on the given case study.',
+      'This high-fidelity prototype was created for our Web Usability class using Figma. It’s a case study for a photography website, showcasing the landing page. All the design work was done by me, based on the provided case study',
     link: 'https://www.behance.net/gallery/217649635/Focus-Photography-Web-Design',
     github: '/',
   },
@@ -27,7 +27,7 @@ const projectData = [
     category: 'Visuals',
     name: 'Selections',
     description:
-      'This is practice on layering and masking in our Adobe Photoshop class. The initial design was provided by the instructor and we were tasked to recreate it.',
+      'This project is a practice in layering and masking from our Adobe Photoshop class. The initial design was provided by the instructor, and our task was to recreate it while applying these techniques.',
     link: '/work/selections.jpg',
     github: '/',
   },
@@ -36,7 +36,7 @@ const projectData = [
     category: 'Visuals',
     name: 'Cebu Island',
     description:
-      'A brochure about Cebu Island which was also a project for our Illustrator class. All of the design was made by me.',
+      'This brochure about Cebu Island was a project for our Illustrator class. I designed everything from scratch, including elements like the whale, coconut, mountains, waterfall, and even the hanging rice, all created using the Pen Tool.',
     link: '/work/cebu.pdf',
     github: '/',
   },
@@ -45,7 +45,7 @@ const projectData = [
     category: 'Web Development',
     name: 'Homestead hub',
     description:
-      'This is a practice assignment for implementing Bootstrap CSS. The design was given by the instructor but the coding implementation was done by me.',
+      'This is a practice assignment for implementing Bootstrap CSS. While the design was provided by the instructor, the coding implementation was done entirely by me.',
     link: 'https://the-homestead-hub-naenaens.netlify.app/',
     github: '/',
   },
@@ -54,7 +54,7 @@ const projectData = [
     category: 'Web Development',
     name: 'Etudes',
     description:
-      'This is a practice assignment for implementing custom CSS selectors. The design was given by the instructor but the coding implementation was done by me.',
+      'This practice assignment focuses on implementing custom CSS selectors. While the design was provided by the instructor, I handled the coding implementation myself.',
     link: 'https://advanced-css-selectors-assignment.netlify.app/',
     github: '/',
   },
@@ -63,7 +63,7 @@ const projectData = [
     category: 'Visuals',
     name: 'Illustrator for Otakus',
     description:
-      'This is an Illustrator guide which features information about using the pen tool, gradients, shapes and 3D illustrations. The concept and design was made by me',
+      'This guide, created using Illustrator, covers key techniques such as the Pen Tool, gradients, shapes, and 3D illustrations. The concept and design were all made by me',
     link: '/work/illustrator-otakus.pdf',
     github: '/',
   },
@@ -72,7 +72,7 @@ const projectData = [
     category: 'Web Development',
     name: 'Music Gallery',
     description:
-      'This is a practice assignment incorporating advanced web concepts to create a Multi-user blog. All of the content was made by me and the images were sourced from pexels.',
+      'This practice assignment involved incorporating advanced web concepts to create a multi-user blog. All of the content was created by me, and the images were sourced from Pexels.',
     link: 'https://nsaberon1.dmitstudent.ca/dmit2503/music-gallery/',
     github: '/',
   },
@@ -81,7 +81,7 @@ const projectData = [
     category: 'Visuals',
     name: 'Mother\'s Day Card',
     description:
-      'This project is about making a consistent design and brand for a special occassion which was done during our Visual Communications class. All of the design was made by me.',
+      'This project focuses on creating a consistent design and brand for a special occasion, completed during our Visual Communications class. All of the design work was done by me.',
     link: '/work/mothers-day-card.pdf',
     github: '/',
   },
@@ -90,7 +90,7 @@ const projectData = [
     category: 'Web Development',
     name: 'Scribbles',
     description:
-      'This is a practice site using MERN (Mongo DB, ExpressJs, React, NodeJs). This is my E-commerce website capstone when I joined a coding bootcamp way back 2022',
+      'This is a practice site built using the MERN stack (MongoDB, Express.js, React, Node.js). It served as my e-commerce website capstone project during the coding bootcamp I attended in 2022.',
     link: 'https://scribbles.vercel.app/',
     github: '/',
   },
@@ -99,7 +99,7 @@ const projectData = [
     category: 'Visuals',
     name: 'Ideal Workstation',
     description:
-      'This is a design of my ideal workstation made using photoshop as an assignment for our photoshop class.',
+      'This design of my ideal workstation was created using Photoshop for an assignment in our Photoshop class. I had a great time bringing my vision to life, experimenting with different elements and techniques to create a functional and visually appealing workspace.',
     link: '/work/ideal-workstation.jpg',
     github: '/',
   },
@@ -108,7 +108,7 @@ const projectData = [
     category: 'Web Design',
     name: 'Focus Photography Low-Fidelity',
     description:
-      'This is a low-fidelity prototype made using Figma for a photography website case study featuring the user dashboard.',
+      'This is a low-fidelity prototype created using Figma for a photography website case study, focusing on the user dashboard. The design was based on the provided case study, and all the design work was done by me.',
     link: 'https://www.behance.net/gallery/217650039/Focus-Photography-Low-fidelity-prototype',
     github: '/',
   },
@@ -117,7 +117,7 @@ const projectData = [
     category: 'Web Development',
     name: 'Basic Portfolio',
     description:
-      'This is a basic portfolio I made a few years back using HTML, Bootstrap and some custom CSS.',
+      'This is a basic portfolio I created a few years ago using HTML, Bootstrap, and some custom CSS. It was my first portfolio project during the bootcamp I attended in 2022.',
     link: 'https://naeyan.com/',
     github: '/',
   },
@@ -126,7 +126,7 @@ const projectData = [
     category: 'Web Development',
     name: 'Anime Husbando',
     description:
-      'This website shows the top husbandos in the anime community. The tools used to build this is AJAX and PHP.',
+      'This website showcases the top husbandos in the anime community. I had a blast building it using AJAX and PHP, combining my love for anime with coding. It was a fun project where I got to explore interactive features and bring some of my favorite characters to life through the website.',
     link: 'https://nsaberon1.dmitstudent.ca/dmit2503/ajax_saberon/saberon-demo.html',
     github: '/',
   },
@@ -135,7 +135,7 @@ const projectData = [
     category: 'Web Development',
     name: 'Anime Ipsum',
     description:
-      'This is an ipsum generator featuring famouse anime characters and their lines. This was made using HTML, CSS and Javascript.',
+      'This is an Ipsum generator featuring famous anime characters and their iconic lines. Made using HTML, CSS, and JavaScript, this side project was a lot of fun to work on. I enjoyed combining my passion for anime with coding to create something playful and unique.',
     link: 'https://anime-ipsum-kei.netlify.app/',
     github: '/',
   }
