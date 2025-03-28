@@ -24,7 +24,7 @@ import { Pagination } from 'swiper/modules';
 const reviewsData = [
   {
     avatar: '/work/twilight-time.jpg', // Image from the public folder
-    name: 'Twilight Band',
+    name: 'Twilight Time Band',
     job: '1950s Songs and Doo-Wop Singer',
     review:
       'Outside of tech, I am a singer. I am one of the singers in the Twilight Band, where we bring the magic of 1950s songs and Doo-Wop back to life! Recently, we were honored to be accepted into the Arts Touring Alliance of Alberta’s Alberta Showcase Program, allowing us to share our music with even more people. Join us on our musical journey!',
