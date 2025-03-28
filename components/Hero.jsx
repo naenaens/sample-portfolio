@@ -17,10 +17,10 @@ import DevImg from './DevImg';
 const Hero = () => {
   return (
     <section className='pt-2 h-auto bg-hero bg-no-repeat bg-bottom bg-cover dark:bg-none mb-16'>
-      <div className='container mx-auto'>
+      <div className='container mx-auto mt-10'>
         <div className='flex flex-col xl:flex-row justify-around gap-x-8'>
           {/* text */}
-          <div className='flex max-w-[600px] flex-col justify-center mx-auto xl:mx-0 text-center xl:text-left'>
+          <div className='flex max-w-[600px] flex-col justify-center mx-auto xl:mx-0 text-center xl:text-left mt-10'>
             <div className='text-sm uppercase font-semibold mb-4 text-amber-500 tracking-[4px]'>
               Web Developer | Web Designer
             </div>
@@ -44,7 +44,7 @@ const Hero = () => {
           </div>
           
           {/* image (no background) */}
-          <div className='flex justify-center xl:flex mb-8'>
+          <div className='flex justify-center xl:flex mb-8 mt-10'>
             <DevImg
               containerStyles='w-[350px] h-[450px] bg-no-repeat relative bg-bottom rounded-lg '
               imgSrc='/hero/developer.jpg'
