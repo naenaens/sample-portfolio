@@ -31,7 +31,7 @@ const Services = () => {
     <section className='mb-12 xl:mb-36 mt-24 xl:mt-24'>
       <div className='container mx-auto mt-24 xl:mt-24'>
         <h2 className='section-title mb-12 xl:mb-24 text-center mx-auto'>
-          What I can offer
+          My Services
         </h2>
         {/* grid items */}
         <div className='grid xl:grid-cols-3 justify-center gap-y-12 xl:gap-y-24 xl:gap-x-8'>
