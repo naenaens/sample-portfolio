@@ -12,7 +12,7 @@ const Footer = () => {
           />
           {/* copyright */}
           <div className='text-muted-foreground'>
-            Nina Saberon 2025
+            Nina Saberon 2025 | This is a modified template from Cristian Mihai.
           </div>
         </div>
       </div>
